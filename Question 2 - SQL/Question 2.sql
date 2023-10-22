@@ -4,10 +4,10 @@
 
 SELECT COUNT(c.name) 
 FROM customers as c
-	LEFT JOIN invoices as i
-ON i.customer_id = c.id
-	LEFT JOIN invoice_lines il 
-ON il.invoice_id = i.id
+LEFT JOIN invoices as i
+	ON i.customer_id = c.id
+LEFT JOIN invoice_lines il 
+	ON il.invoice_id = i.id
 WHERE quantity > 5;
 
 
@@ -21,11 +21,11 @@ WHERE customer_id is NULL;
 
 -- d. Show the SQL query for list of book purchased with the users
 
-SELECT c.name, l.description
+SELECT c.name, il.description
 FROM customers AS c
 LEFT JOIN invoices AS i
 	ON i.customer_id = c.id
-LEFT JOIN invoice_lines AS l
-	ON l.invoice_id = i.id
+LEFT JOIN invoice_lines AS il
+	ON i.id = il.invoice_id
 WHERE customer_id IS NOT NULL ;
 
