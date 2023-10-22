@@ -67,7 +67,7 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 - USE **LEFT JOIN** to merge `customers`, `invoices` and `invoice_lines` tables.
 - Select `c.name` and `il.description` from the tables to determine the customers' names and books that they bought
-- Filter the tables with `customer_id` is set to **NOT NULL** 
+- Filter the tables with `customer_id` and set the column to **NOT NULL** 
 
 ### **Answer**
 
