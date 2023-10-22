@@ -2,14 +2,18 @@
 
 -- b. Show the SQL query for nmber of customers purchasing more than 5 books. 
 
-SELECT COUNT(id) as customers_count
-FROM invoice_lines
+SELECT COUNT(c.name) 
+FROM customers as c
+	LEFT JOIN invoices as i
+ON i.customer_id = c.id
+	LEFT JOIN invoice_lines il 
+ON il.invoice_id = i.id
 WHERE quantity > 5;
 
 
 -- c. Show the SQL query for a list of customers who never purchased anything
 
-SELECT c.name 
+SELECT c.name, i.total
 FROM customers AS c
 LEFT JOIN invoices AS i
 	ON i.customer_id = c.id
