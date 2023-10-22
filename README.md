@@ -7,11 +7,10 @@
 # Questions and Solutions
 
 
+
+
 ### Question 1: Describe a Data Engineer role in an organisation and its main responsibilities
-
-
-
-
+A data engineer is responsible for designing, maintaining, and optimizing systems that extract and collect raw data from multiple sources, and transform and store data in table form. He/she needs to ensure that the data is highly available, consistent, accurate and recoverable for enterprises and organizations to make most of the data. Data engineer is also responsible to choose the right databases, storage systems and cloud platform. This is to ensure the data flow inside an organization is seamless and data be delivered to whoever needs it. 
 
 
 ----
@@ -31,7 +30,7 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 ![query1](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/29e93c07-4210-4376-b141-8a8ff6fe12ae)
 
-### **Steps**
+### **Step(s)**
 - Perform a **COUNT** aggregation on the `id` column and filter the number of customers who have  `quantity` of more than 5.
 
 ### **Answer**
