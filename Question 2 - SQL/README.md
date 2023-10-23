@@ -21,8 +21,9 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 **b. Show thw SQL query for number of customers purchasing more than 5 books.**
 
+![query1](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/919c3c31-585d-4187-bbff-d79db770794a)
 
-![query1](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/b28960e9-7bba-4229-92f8-789f620ef214)
+
 
 
 ### **Step(s)**
@@ -33,17 +34,20 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 ### **Answer**
 
-![output_b](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/f97e8651-0e20-4057-9047-62768001d56b)
+![output_b](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/b85139c5-84a8-4580-a20a-979a1564efe6)
+
 
 ----
 
 **c. Show the SQL query for a list of customers who never purchased anything**
 
-
-![query2](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/14d5b4a4-f1f9-40b1-889c-beb07533d25a)
+![query2](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/89ca74f3-658a-4959-b0db-bda4619a8e21)
 
 
 ### **Steps**
+
+![output2](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/f17854c5-7609-484d-9f36-890ccbb5e775)
+
 
 
 - Use **LEFT JOIN** to merge `customers` and `invoices` tables .
@@ -52,7 +56,8 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 
 ### **Answer**
-![output2](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/5cd8b3c4-b467-4c22-9e4c-1ca9b070194f)
+
+
 
 
 
@@ -61,7 +66,7 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 **d. Show the SQL query for list of book purchased with the users.**
 
 
-![query3](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/a8af60f6-7457-4f8c-9ee6-0f19fa16563f)
+![query3](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/7498b4b9-2779-4643-95f4-f516687eb92f)
 
 
 ### **Steps**
@@ -72,6 +77,7 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 ### **Answer**
 
-![output3](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/e0138cce-6701-467d-aa62-273463f7b549)
+![output3](https://github.com/khairahnh/data-questionnaire-de/assets/100784629/67eb2e7b-87ef-4deb-956d-955906b9d0ce)
+
 
 
