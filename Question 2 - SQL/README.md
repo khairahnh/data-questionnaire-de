@@ -27,8 +27,9 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 
 ### **Step(s)**
 - Use **LEFT JOIN** to merge `customers` and `invoices` tables .
-- Perform a **COUNT** aggregation on the `name` column from `customers` table.
-- Filter `quantity` to extract quantity of books greater than 5.
+- Select `name` column to identify the customer(s)
+- Filter `quantity` to extract quantity of books greater than 5. Output shows that `Shanon Teoh` is the customer who purchased books more than 5.
+- Perform a **COUNT** aggregation on the `name` column to determine the number of customer. 
 
 ### **Answer**
 
@@ -45,7 +46,8 @@ A thorough queries can be found [here](https://github.com/khairahnh/data-questio
 ### **Steps**
 
 
-- Use **LEFT JOIN** to merge `customers` and `invoices` tables and choose `c.name` and `i.total` to find out which customers who never made any purchases.
+- Use **LEFT JOIN** to merge `customers` and `invoices` tables .
+- Select `c.name` and `i.total` to find out customers who never made any purchases.
 - Filter the column `customer_id` and set the column to **NULL**
 
 
